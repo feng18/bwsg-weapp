@@ -5,6 +5,7 @@ module.exports = {
   wpyExt: '.wpy',
   eslint: true,
   cliLogs: !prod,
+  static: 'src/images', // 静态资源路径 不然提示找不到文件
   build: {
   },
   resolve: {
@@ -34,4 +35,3 @@ module.exports = {
     noPromiseAPI: ['createSelectorQuery']
   }
 }
-
