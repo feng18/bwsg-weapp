@@ -1,5 +1,12 @@
 
-## 创建项目
+## 开发人员首次拉取远程项目
+
+$ git clone git@github.com:feng18/bwsg-weapp.git
+$ cd bwsg-weapp
+$ npm install
+$ npm run dev
+
+## 全新创建项目
 
 $ npm install @wepy/cli -g # 全局安装 WePY 2.0 CLI 工具
 $ wepy init standard myproj # 使用 standard 模板初始化项目
